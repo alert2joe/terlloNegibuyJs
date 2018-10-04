@@ -25,11 +25,11 @@ function getColumnPoint(c_name){
 function createText(c_name,member_name){
 	getColumn(c_name).find('.newNeigbuyLabel').remove();
 	var p = getMemberPoint(member_name,'Development')
-	var label_1 = $('<span>').addClass('card-label card-label-purple mod-card-front').text('DEV :'+ p);
+	var label_1 = $('<span>').addClass('card-label card-label-purple mod-card-front').text('DEV: '+ p);
     
 
 	var p = getMemberPoint(member_name,'Test')
-	var label_2 = $('<span>').addClass('card-label card-label-blue mod-card-front').text('Test :'+ p);
+	var label_2 = $('<span>').addClass('card-label card-label-blue mod-card-front').text('Test: '+ p);
 	
 	var newLabel = $('<span>').addClass('newNeigbuyLabel').append(label_1).append(label_2);
     getColumn(c_name).find('.list-header').append(newLabel)
