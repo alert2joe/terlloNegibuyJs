@@ -53,26 +53,3 @@ function addnewNeigbuyLabel(){
 	
 	
 setTimeout(addnewNeigbuyLabel, 2000);
-
-
-
-
-
-
-var MemberPoint = {
-j:getMemberPoint('Joe Lee'),
-K:getMemberPoint('Kelvin'),
-F:getMemberPoint('Felix Hui'),
-P:getMemberPoint('Pax K'),
-T:getMemberPoint('tony'),
-}
-
-
-
-
-
-$('mydiv').bind("DOMSubtreeModified",function(){
-  alert('changed');
-});
-
-
